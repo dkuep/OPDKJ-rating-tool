@@ -6,8 +6,12 @@ Es entsteht ein interaktives Rating Tool für die OPD-KJ2[^1].
 
 ## Aktuelle Version
 
+[Die aktuelle Version auf GitHub Pages.](https://dkuep.github.io/OPDKJ-rating-tool/)
+
 ### Milestone v0.1
 - "Digitalisierte Umsetzung der Befunderhebungsbögen"
+  - [ ] Eingabe von Pat-Alter, Gebdat, "Klasse"
+  - [ ] reset button evtl. auf Abschnitts-Ebene
 - **Achse Beziehung** 
   - Rating der Kreise S1; A1,2,3; B1,2,3
   - Darstellung in Netz-Graphen mit graph.js analog zur Excel-Version.
@@ -25,13 +29,10 @@ Es entsteht ein interaktives Rating Tool für die OPD-KJ2[^1].
 - Rudimentäres Print-Layout
   - unnötige Eingabe-Felder werden verborgen
   - [ ] druckfreundliches Layout angestrebt
-- **ToDo**
-- [ ] Alter Gebdat Klasse
-- [ ] reset button evtl. auf Abschnitts-Ebene
 
 ### Dependancies v0.1
-- Bootstrap v5
-- Graph.js
+- [Bootstrap v5](https://getbootstrap.com)
+- [Charts.js](https://www.chartjs.org)
 
 ## Roadmap 
 
